@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 1.2'
 # Gives access to the Bootstrap library
 gem 'bootstrap-sass', '~> 3.0.3.0'
 
+# Devise allows for user authentication
+gem 'devise', '~> 3.1.1'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record in development and test enviroment
 	gem 'sqlite3'

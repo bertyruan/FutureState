@@ -1,5 +1,6 @@
 Future::Application.routes.draw do
 
+  devise_for :users
   root "pages#home" #creates a root_path
 
   get "about" => "pages#about" #creates a about_path variable
