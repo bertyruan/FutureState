@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-
   <title>Future State College</title>
-
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-
   <%= csrf_meta_tags %>
-
-</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head> 
 
 <body>
 
-	<%= link_to "Home", root_path %>
-	<%= link_to "About", about_path %>
+	
+		<%= yield %>
 
-<%= yield %>
 
 </body>
 </html>
