@@ -1,5 +1,6 @@
 Future::Application.routes.draw do
 
+  resources :posts
   devise_for :users
   root "pages#home" #creates a root_path
 
