@@ -10,6 +10,8 @@
 
 <body>
 
+	<%= render "layouts/navbar" %>
+
 	<% flash.each do |name, msg| %>
 		<%= content-tag(:div, msg, class: "alert alert-info") %>
 	<% end %>
