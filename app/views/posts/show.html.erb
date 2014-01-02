@@ -16,10 +16,6 @@
 <h3>Add a Comment:</h3>
 <%= render "comments/form" %>
 
-<p>
-  <%= link_to 'Destroy Comment', [comment.post, comment],
-               method: :delete, data: { confirm: 'Are you sure?' } %>
-</p>
 
 <%= link_to "Back", posts_path %> |
 <%= link_to "Edit", edit_post_path(@post) %>
